@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: "db/changelog/users/01-create-users.yaml"
+  - include:
+      file: "db/changelog/cards/02-create-cards.yaml"
